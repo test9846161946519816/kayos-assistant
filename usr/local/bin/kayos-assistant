@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-sudo python '/usr/share/kayos-assistant/_assistant.py'
+python '/usr/share/kayos-assistant/_assistant.py'
