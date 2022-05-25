@@ -9,7 +9,7 @@ url="https://github.com/test9846161946519816/$pkgname"
 depends=('w3m' 'python-numpy' 'python-psutil' 'chaotic-mirrorlist' 'chaotic-keyring')
 makedepends=('git')
 conflicts=('kayos-assistant')
-source=("$pkgname-$pkgver.tar.gz::git+$url")
+source=("$pkgname-$pkgver::git+$url")
 sha256sums=('SKIP')
 
 package() {
