@@ -13,5 +13,5 @@ source=("$pkgname-$pkgver::git+$url")
 sha256sums=('SKIP')
 
 package() {
-	cp -r "$srcdir$pkgname-$pkgver/usr" "$pkgdir"
+	cp -r "$srcdir/$pkgname-$pkgver/usr" "$pkgdir"
 }
