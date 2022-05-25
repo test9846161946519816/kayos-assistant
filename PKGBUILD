@@ -14,5 +14,5 @@ sha256sums=('SKIP')
 
 package() {
 	cd "$srcdir"
-	cp -r "$pkgname-$pkgver/usr" "$pkgdir"
+	cp -r "./$pkgname-$pkgver/usr" "$pkgdir"
 }
