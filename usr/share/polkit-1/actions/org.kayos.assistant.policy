@@ -2,7 +2,7 @@
 <!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN" "http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
 <policyconfig>
   
-  <action id="org.freedesktop.policykit.pkexec.run">
+  <action id="org.freedesktop.policykit.pkexec._assistant">
     <description>Run KayOS Assistant</description>
     <message>Authentication is required to run KayOS Assistant</message>
     <defaults>
